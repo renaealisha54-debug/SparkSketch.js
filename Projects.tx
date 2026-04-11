@@ -1,0 +1,15 @@
+// src/types/project.ts
+export interface ProjectFile {
+  id: string;
+  name: string;
+  content: string;
+  type: 'html' | 'js' | 'css' | 'tsx' | 'json' | string;
+  language?: string; // for syntax highlighting ('html', 'javascript', 'css')
+}
+
+export interface Project {
+  id: string;
+  name: string;
+  files: ProjectFile[];
+  lastModified: string;
+}
