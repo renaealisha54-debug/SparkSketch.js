@@ -1,0 +1,11 @@
+SparkSketch: The Visual Prototyping Engine 🎨
+​SparkSketch is the "Tier 1" design tool focused on UI/UX development. It provides a real-time bridge between React Native/Web code and a visual WebView preview.
+​📁 Core File Roles
+​SketchScreen.tsx: The primary view containing the split-screen Editor and Live Preview.
+​aetherBridge.ts: The deployment service that bundles raw code into an HTML container for rendering.
+​Filetabs.tsx: A navigation component allowing developers to switch between multiple files (styles, components, assets).
+​CodeEditor.tsx: Optimized for UI syntax highlighting and instant rendering updates.
+​🚀 Technical Profile
+​Target: Frontend developers and UI designers.
+​Key Feature: Live "Hot Reload" style preview via an injected WebView.
+​Persistence: Local project saving with the ability to "Vault" designs to AetherPro.
