@@ -1,0 +1,6 @@
+// Aetherlink.ts
+export const logToTerminal = (message: string, type: 'info' | 'error' = 'info') => {
+  // This function would interface with your global state manager (like Zustand or Context)
+  // which your FloatingTerminal is listening to.
+  console.log(`[ScriptFlow] ${message}`);
+};
